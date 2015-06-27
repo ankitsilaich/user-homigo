@@ -1,0 +1,123 @@
+[14-Jun-2015 01:59:22 UTC] PHP Parse error:  syntax error, unexpected ''</h1>' (T_CONSTANT_ENCAPSED_STRING) in /home/iti13iti/public_html/ankitsilaich.in/user-homigo/api/homigo.php on line 1121
+[14-Jun-2015 01:59:44 UTC] PHP Parse error:  syntax error, unexpected ''</h1>' (T_CONSTANT_ENCAPSED_STRING) in /home/iti13iti/public_html/ankitsilaich.in/user-homigo/api/homigo.php on line 1121
+[16-Jun-2015 19:17:07 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 19:17:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 19:17:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 20:37:11 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 20:37:11 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 20:37:11 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 21:10:58 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 21:10:59 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 21:12:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 21:12:09 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[16-Jun-2015 21:12:09 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:10 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:24 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:25 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:29 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:34 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:34 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:42 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[17-Jun-2015 20:43:43 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'shiningfloor'@'localhost' (using password: YES)' in /home/homig7y7/public_html/user/api/homigo.php:5
+Stack trace:
+#0 /home/homig7y7/public_html/user/api/homigo.php(5): PDO->__construct('mysql:dbname=ho...', 'shiningfloor', 'Shiningfloor')
+#1 {main}
+  thrown in /home/homig7y7/public_html/user/api/homigo.php on line 5
+[24-Jun-2015 07:18:38 Etc/GMT] PHP Fatal error:  Call to a member function users() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:19:53 Etc/GMT] PHP Fatal error:  Call to a member function tenants() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:19:58 Etc/GMT] PHP Fatal error:  Call to a member function tenants() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:22:06 Etc/GMT] PHP Fatal error:  Call to a member function tenants() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:22:08 Etc/GMT] PHP Fatal error:  Call to a member function tenants() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:22:29 Etc/GMT] PHP Fatal error:  Call to a member function tenants() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:22:44 Etc/GMT] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 151
+[24-Jun-2015 07:25:30 Etc/GMT] PHP Fatal error:  Call to a member function houses() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:25:52 Etc/GMT] PHP Fatal error:  Call to a member function houses() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 150
+[24-Jun-2015 07:28:02 Etc/GMT] PHP Fatal error:  Call to a member function houses() on a non-object in /home/homig7y7/public_html/user/api/homigo.php on line 151
+[24-Jun-2015 13:55:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 163
+[24-Jun-2015 13:55:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 163
+[24-Jun-2015 13:56:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 163
+[24-Jun-2015 13:56:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 163
+[24-Jun-2015 13:59:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 164
+[24-Jun-2015 13:59:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/homig7y7/public_html/user/api/homigo.php on line 164
