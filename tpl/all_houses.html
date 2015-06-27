@@ -1,0 +1,37 @@
+<div class="bg-light lter b-b wrapper-md" >
+  <h1 class="m-n font-thin h3"><i class="icon-magnifier i-sm m-r-sm"></i> Search</h1>
+</div>
+<div class="wrapper-md" ng-controller="houseCtrl">
+  <form action="#" class="m-b-md" >
+    <div class="input-group">
+      <input type="text" ng-model="query" class="form-control input-lg" placeholder="Type keyword">
+      <span class="input-group-btn">
+        <button class="btn btn-lg btn-default" type="button">Search</button>
+      </span>
+    </div>
+  </form>
+  <p class="m-b-md"><strong>{{houses.length}}</strong> Results found for: <strong>{{query}}</strong></p>
+  <tabset class="tab-container">
+    <tab>
+      <tab-heading>
+        All <span class="badge badge-sm m-l-xs">{{houses.length}}</span>
+      </tab-heading>
+      <ul class="list-group no-borders pull-in m-b-none">
+         <li class="list-group-item" ng-repeat="house in houses = (house | filter:query)">
+           <a href="#" class="pull-left thumb-md m-r m-t">
+            <img src="img/a0.jpg" alt="..." class="img-square">
+          </a>
+          <div class="clear">
+          <a ui-sref="app.house.detail({house_id: house.house_id})" class="h4 text-primary m-b-sm m-t-sm block">{{house.house_name}}</a>
+          <p>{{house.house_address}} </p>
+          <p><span class="label bg-info pos-rlt m-r inline wrapper-xs"><i class="arrow right arrow-info"></i> Owner:</span> <a href class="m-r-sm">{{house.house_owner.name}}</a> <a href>{{house.house_owner.phone}}</a>
+          </p>
+        </div>
+        </li>
+        
+      </ul>
+    </tab>
+   
+   
+  </tabset>
+</div>

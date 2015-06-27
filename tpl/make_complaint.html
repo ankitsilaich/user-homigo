@@ -1,0 +1,43 @@
+<div class="bg-light lter b-b wrapper-md">
+  <toaster-container toaster-options="{'position-class': 'toast-top-right', 'close-button':true}"></toaster-container>
+  <h1 class="m-n font-thin h3">Make Complaint</h1>
+</div>
+<div class="wrapper-md" ng-controller="complaintCtrl">
+  <div class="row">
+    
+    <div class="col-sm-6 col-sm-offset-3">
+      
+          <form name="form-contact" class="form-validation">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <span class="h4">Complaint Form</span>
+            </div>
+            <div class="panel-body">
+              <p class="text-muted">Need support? please fill the fields below.</p>                        
+                <div class="form-group pull-in clearfix">
+                  <div class="col-sm-6">
+                    <label>Your name</label>
+                    <input type="text" class="form-control" placeholder="Name" ng-model="tenant.name" required >
+                  </div>
+                  <div class="col-sm-6">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter email" ng-model="tenant.email" required >
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label>Complaint</label>
+                  <textarea class="form-control" rows="6" placeholder="Type your Complaint here" ng-model="test"></textarea>
+                </div>
+            </div>
+            <footer class="panel-footer text-right bg-light lter">
+              <button  class="btn btn-success" ng-click="makecomplaint(tenant,test)">Submit</button>
+               <button  class="btn btn-danger" ui-sref="app.tenant.details">Cancel</button>
+            </footer>
+          </div>
+        </form>
+       
+  </div>
+ 
+  
+</div>

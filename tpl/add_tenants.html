@@ -1,0 +1,88 @@
+<div class="bg-light lter b-b wrapper-md">
+  <toaster-container toaster-options="{'position-class': 'toast-top-right', 'close-button':true}"></toaster-container>
+  <h1 class="m-n font-thin h3">Add House</h1>
+</div>
+<div class="wrapper-md" ng-controller="FormDemoCtrl">
+  <div class="row">
+    
+    <div class="col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading font-bold">Horizontal form</div>
+        <div class="panel-body">
+          <form class="bs-example form-horizontal" name="addTenant">
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Name</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="name" ng-model="tenant.name">
+                <span class="help-block m-b-none">Example block-level help text here.</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Address</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="address" ng-model="tenant.address">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Company</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="company" ng-model="tenant.company">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Phone</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="phone" ng-model="tenant.phone">
+              </div>
+            </div>
+             <div class="form-group">
+          <label class="col-sm-2 control-label">Tenant Entry Date</label>
+          <div class="col-sm-10" ng-controller="DatepickerDemoCtrl">
+            <div class="input-group w-md">
+              <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="tenant.entry_date" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+             <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Rent</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="rent" ng-model="tenant.rent">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Tenant Total Deposit</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="Total deposit to be paid by tenant" ng-model="tenant.totaldeposit">
+              </div>
+            </div>
+             <div class="form-group"> <label class="col-lg-2 control-label">Tenant Deposit Left</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" placeholder="paid Deposit" ng-model="tenant.depositleft">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="col-lg-offset-2 col-lg-10">
+                <div class="checkbox">
+                  <label class="i-checks">
+                    <input type="checkbox" checked><i></i> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-offset-2 col-lg-10">
+                <button type="submit" class="btn btn-sm btn-info" ng-click="submitform(tenant)" >Add Tenant</button>
+              </div>
+            </div> 
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  
+</div>
